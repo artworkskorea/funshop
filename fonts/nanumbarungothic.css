@@ -3,7 +3,8 @@
  * https://github.com/hiun/NanumBarunGothic
  * Copyright (c) 2010, NAVER Corporation (http://www.nhncorp.com) 
  */
- 
+
+ /*
 @font-face {
   font-family: 'Nanum Barun Gothic';
   font-style: normal;
@@ -16,6 +17,20 @@
        url(./NanumBarunGothicUltraLight.woff) format('woff'),
        url(./NanumBarunGothicUltraLight.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./NanumBarunGothic.eot);
+  src: local('Nanum Barun Gothic'),
+       local('NanumBarunGothic'),
+       url(./NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(./NanumBarunGothic.woff2) format('woff2'),
+       url(./NanumBarunGothic.woff) format('woff'),
+       url(./NanumBarunGothic.ttf) format('truetype');
+}
+*/
 
 @font-face {
   font-family: 'Nanum Barun Gothic';
@@ -33,20 +48,7 @@
 @font-face {
   font-family: 'Nanum Barun Gothic';
   font-style: normal;
-  font-weight: 400;
-  src: url(./NanumBarunGothic.eot);
-  src: local('Nanum Barun Gothic'),
-       local('NanumBarunGothic'),
-       url(./NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
-       url(./NanumBarunGothic.woff2) format('woff2'),
-       url(./NanumBarunGothic.woff) format('woff'),
-       url(./NanumBarunGothic.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Nanum Barun Gothic';
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   src: url(./NanumBarunGothicBold.eot);
   src: local('Nanum Barun Gothic Bold'),
        local('NanumBarunGothicBold'),
@@ -54,5 +56,5 @@
        url(./NanumBarunGothicBold.woff2) format('woff2'),
        url(./NanumBarunGothicBold.woff) format('woff'),
        url(./NanumBarunGothicBold.ttf) format('truetype');
+  font-display: swap;
 }
-
